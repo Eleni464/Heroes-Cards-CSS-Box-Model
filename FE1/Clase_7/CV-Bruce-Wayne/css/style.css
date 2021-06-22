@@ -1,0 +1,73 @@
+
+.h1-char { /*Estilos para h1: Bruce W. CV */
+    color:#005677;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    text-align: center ;
+    text-transform: uppercase;
+    letter-spacing:0.25em; 
+    line-height: 43px;
+    background-color:#C4C4C4;
+    margin-top:0px;
+    }
+
+.batman-header { 
+    background-color: #E5E5E5;
+    height: 200px ;
+}
+
+.h2 { /*Estilos para h2 */
+    font-family: 'times New Roman' ;
+    font-size: 20px ;
+    font-style: normal ;
+    font-weight: bold ;
+    color: #005677 ;
+    text-transform: uppercase ;
+    letter-spacing: 0.2em;
+    line-height: 28px;
+    background-color: #C4C4C4 ;
+}
+
+.body-font {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.campos-cv-dp {
+    font-style:italic ;
+    font-weight: bold ;
+}
+
+.campos-cv-fecha {
+    font-weight: bold ;
+
+}
+
+.footer-back { /* Footer de Batman cv */
+    font-family: 'Times New Roman' ;
+    font-weight: bold ;
+    font-size: 20px ;
+    text-transform: uppercase ;
+    text-align: center ;
+    color: white ;
+    background-color: #005677;
+    height: 37px;
+}
+
+.section-main-top {
+    margin-top: 104px;
+    margin-left: 225px; 
+    margin-right: 174px; 
+    margin-bottom: 40px;
+}
+.section-main {
+    margin-left: 225px; 
+    margin-right: 174px ;
+}
+
+.section-main-last {
+    margin-top: 40px;
+    margin-left: 225px; 
+    margin-right: 174px ;
+    margin-bottom: 150px;
+}
