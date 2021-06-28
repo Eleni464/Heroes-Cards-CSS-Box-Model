@@ -1,0 +1,249 @@
+/*for future improvements: referenced objects such as rectangle of "ver más". 
+I repeated code with the "like" button and it could have been done better, using not a fixed reference, but with a % if I had put it
+inside a container (like background) instead of as a single object. I believe that something similar could also be done with the 
+position of the heroes explanation, isntead of fixing it with px, using % over a card container. Though it might seem that the lines 
+pretty much the same, if I had used a container with "fixed reference" the backgrounds and texts would have been % and the position 
+would only be required for the main containers. This is to be tested. */
+
+body {
+  font-family: "roboto";
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+}
+
+.descuento {
+  background-color: #1cd1b0;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 10px;
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 38px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+
+.heroes {
+  background-color: #00669f;
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  height: 101px;
+  width: 1024px;
+  padding: 20px 868px 30px 28px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.h1 {
+  font-weight: normal;
+}
+
+.h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+}
+
+.batman1-container {
+  /*batman-card 2 contenedor general*/
+  position: relative;
+  margin: 0px;
+  border: 6px, solid, black;
+}
+
+.batman-card {
+  /*background image - Batman Card 2*/
+  position: absolute;
+  background-size: cover;
+  margin-bottom: 0px;
+  height: 193px;
+  width: 300px;
+  left: 32px;
+  top: 291px;
+  z-index: 1;
+}
+
+.texto-B1 {
+  /*caja con explicación de Batman*/
+  position: absolute;
+  margin-top: 0px;
+  padding: 74px 17px 18.48px 16px;
+  left: 32px;
+  top: 483px;
+  width: 300px;
+  height: 336px;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.batman-pic {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  left: 122px;
+  top: 419px;
+  z-index: 4;
+}
+.visit-button {
+  position: absolute;
+  top: 752px;
+  left: 117px;
+  box-sizing: border-box;
+  width: 128.78px;
+  height: 48.52px;
+  z-index: 3;
+}
+
+.ver-más {
+  position: absolute;
+  color: white;
+  font-weight: normal;
+  top: 25%;
+  left: 25%;
+  font-size: 15px;
+  z-index: 5;
+}
+
+.like {
+  position: absolute;
+  left: 53px;
+  top: 306.88px;
+  z-index: 3;
+}
+
+/*elementos carta Harley*/
+.harley-container {
+  /*harley contenedor general*/
+  position: relative;
+  margin: 0px;
+}
+
+.harley-card {
+  /*background image - hq*/
+  position: absolute;
+  background-size: cover;
+  margin-bottom: 0px;
+  width: 300px;
+  height: 193px;
+  left: 362px;
+  top: 291px;
+  z-index: 0;
+}
+
+.texto-h {
+  /*caja con explicación de hq*/
+  position: absolute;
+  margin-top: 0px;
+  padding: 74px 17px 18.48px 16px;
+  width: 300px;
+  height: 336px;
+  left: 362px;
+  top: 483px;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+
+.harley-pic {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  left: 451px;
+  top: 419px;
+  z-index: 4;
+}
+.visit-button-2 {
+  position: absolute;
+  top: 754px;
+  left: 447px;
+  box-sizing: border-box;
+  left: 447px;
+  top: 754px;
+  z-index: 3;
+}
+
+.like-h {
+  position: absolute;
+  left: 383px;
+  top: 306.88px;
+  z-index: 3;
+}
+
+/*elementos batman 2 */
+.batman2-container {
+  /*batman w contenedor general*/
+  position: relative;
+  margin: 0px;
+}
+
+.batman-card2 {
+  /*background image - hq*/
+  position: absolute;
+  background-size: cover;
+  margin-bottom: 0px;
+  width: 300px;
+  height: 193px;
+  left: 692px;
+  top: 294px;
+  z-index: 0;
+}
+
+.texto-B2 {
+  /*caja con explicación de hq*/
+  position: absolute;
+  margin-top: 0px;
+  padding: 74px 17px 18.48px 16px;
+  width: 300px;
+  height: 336px;
+  left: 692px;
+  top: 486px;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+
+.batman-pic2 {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  left: 781px;
+  top: 420px;
+  z-index: 4;
+}
+.visit-button-3 {
+  position: absolute;
+  top: 754px;
+  left: 447px;
+  box-sizing: border-box;
+  left: 777px;
+  top: 754px;
+  z-index: 3;
+}
+
+.like-b2 {
+  position: absolute;
+  left: 713px;
+  top: 306.88px;
+  z-index: 3;
+}
+
+.footer {
+  position: absolute;
+  left: 0px;
+  top: 972px;
+  background-color: #00669f;
+  width: 1024px;
+  height: 51px;
+  color: white;
+  font-weight: normal;
+  box-sizing: border-box;
+  padding-top: 16px;
+  padding-left: 16px;
+}
